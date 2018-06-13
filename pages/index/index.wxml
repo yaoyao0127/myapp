@@ -1,0 +1,11 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="usermotto">
+    <text bindtap='bindViewMenu' class="user-motto">{{motto}}</text>
+  </view>
+  <view class='menu'>
+    <button class='btn' bindtap='viewBook'>读书</button>
+    <button class='btn' bindtap='viewWord'>背单词</button>
+    <button class='btn' bindtap='viewSport'>做运动</button>
+  </view>
+</view>

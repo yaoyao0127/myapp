@@ -1,0 +1,16 @@
+/* pages/book/book.wxss */
+.bookItem {
+  width: 109px;
+  margin: 20px 0px 20px 22px;
+  display: inline-block;
+  text-align: center;
+}
+.bookImg {
+  width: 109px;
+  height: 163px;
+}
+.bookBabel {
+  width: 109px;
+  height: 50px; 
+  font-size: 13px;  
+}

@@ -1,0 +1,25 @@
+<!--pages/fairyBook/fairyBook.wxml-->
+<view class="container">
+  <view>
+    <text class="user-motto">书中自有颜如玉，腹有诗书气自华</text>
+  </view>
+  <view class='list'>
+    <view class='bookItem' bindtap='viewBookItem'>
+    <image class='bookImg' src="../../static/image/book1.jpg"></image>
+    <text class='bookBabel'>治疗思乡病的偏方</text>
+    </view>
+    <view class='bookItem' bindtap='viewBookItem'>
+    <image class='bookImg' src="../../static/image/book2.jpg"></image>
+    <text class='bookBabel'>蔑法者</text>
+    </view>
+    <view class='bookItem' bindtap='viewBookItem'>
+    <image class='bookImg' src="../../static/image/book3.jpg"></image>
+    <text class='bookBabel'>西山打庙记</text>
+    </view>
+    <view class='bookItem' bindtap='viewBookItem'>
+    <image class='bookImg' src="../../static/image/book4.jpg"></image>
+    <text class='bookBabel'>大象的舞蹈</text>
+    </view>
+  </view>
+
+</view>

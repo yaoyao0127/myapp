@@ -1,0 +1,15 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/book/book",
+    "pages/bookItem/bookItem",
+    "pages/word/word",
+    "pages/sport/sport"    
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "仙女的基本修养",
+    "navigationBarTextStyle": "black"
+  }
+}

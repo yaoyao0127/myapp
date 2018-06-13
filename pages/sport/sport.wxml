@@ -1,0 +1,9 @@
+<!--pages/menu/menu.wxml-->
+<view class="container">
+  <view class="usermotto">
+    <text class="user-motto">仙女今天穿什么呢？</text>
+  </view>
+  <view class='list'>
+  
+  </view>
+</view>

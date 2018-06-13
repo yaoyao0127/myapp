@@ -1,0 +1,34 @@
+<!--bookItem.wxml-->
+<view class='bar'>
+  <text id='lastbtn' bindtap='viewLastPage'>上一页</text>
+  <text id='settingbtn' bindtap='viewSetting'>设置</text>
+  <text id='nextbtn' bindtap='viewNextPage'>下一页</text>
+</view>
+<view class='content'>
+<view class='hiddenSetting' style="display:{{display}};">
+<form bindsubmit='settingSubmit'>
+  <view class='settingLine'>
+    <view class='settingTitle'>背景颜色</view>
+    <view class='settingOption'>
+    <label><radio value="白色" />白色</label>
+    <label><radio value="黑色" />黑色</label>
+    <label><radio value="纸张色" />纸张色</label>
+    </view>
+  </view>
+  <view class='settingLine'>
+    <view class='settingTitle'>字体大小</view>
+    <view class='settingOption'>
+    <label><radio value="大" />大</label>
+    <label><radio value="中" />中</label>
+    <label><radio value="小" />小</label>
+    </view>
+  </view>
+  <view class='settingLine'>
+    <button id='submitSetting' size='mini' bindtap='hideSetting'>完成</button>
+  </view>
+</form>
+</view>
+<view class='text'>
+  <text>{{text}}</text>
+</view>
+</view>

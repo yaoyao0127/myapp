@@ -1,0 +1,10 @@
+<!--pages/fairyMakeup/fairyMakeup.wxml-->
+<view class="container">
+  <view class="usermotto">
+    <text class="user-motto"></text>
+  </view>
+  <view class='list'>
+  
+  </view>
+</view>
+
