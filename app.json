@@ -4,7 +4,8 @@
     "pages/book/book",
     "pages/bookItem/bookItem",
     "pages/word/word",
-    "pages/sport/sport"    
+    "pages/sport/sport",
+    "pages/wordItem/wordItem"
   ],
   "window": {
     "backgroundTextStyle": "light",

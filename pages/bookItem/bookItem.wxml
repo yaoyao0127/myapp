@@ -1,11 +1,11 @@
 <!--bookItem.wxml-->
-<view class='bar'>
+<view class='bar' style="display:{{barDisplay}};">
   <text id='lastbtn' bindtap='viewLastPage'>上一页</text>
   <text id='settingbtn' bindtap='viewSetting'>设置</text>
   <text id='nextbtn' bindtap='viewNextPage'>下一页</text>
 </view>
-<view class='content'>
-<view class='hiddenSetting' style="display:{{display}};">
+<view class='content' bindtap='switchBar'>
+<view class='hiddenSetting' style="display:{{settingDisplay}};">
 <form bindsubmit='settingSubmit'>
   <view class='settingLine'>
     <view class='settingTitle'>背景颜色</view>
@@ -32,3 +32,4 @@
   <text>{{text}}</text>
 </view>
 </view>
+

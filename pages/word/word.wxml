@@ -1,10 +1,15 @@
 <!--pages/fairyMakeup/fairyMakeup.wxml-->
 <view class="container">
-  <view class="usermotto">
-    <text class="user-motto"></text>
+  <view class='header'>
+    <text class="user-motto">Wisdom in the mind is better than money in the hand</text>
   </view>
   <view class='list'>
-  
+    <view class='wordItem' bindtap='viewCET6'>
+    六级单词
+    </view>
+    <view class='wordItem' bindtap='viewTOF'>
+    托福单词
+    </view>
   </view>
-</view>
 
+</view>

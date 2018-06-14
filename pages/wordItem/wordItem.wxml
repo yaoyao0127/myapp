@@ -1,0 +1,45 @@
+<!--pages/wordItem.wxml-->
+<view class="wordItem">
+  <view id ='word'>
+  {{word1}}
+  </view>
+  <view id ='meaning'>
+  {{meaning1}}
+  </view>
+</view>
+<view class="wordItem">
+  <view id ='word'>
+  {{word2}}
+  </view>
+  <view id ='meaning'>
+  {{meaning2}}
+  </view>
+</view>
+<view class="wordItem">
+  <view id ='word'>
+  {{word3}}
+  </view>
+  <view id ='meaning'>
+  {{meaning3}}
+  </view>
+</view>
+<view class="wordItem">
+  <view id ='word'>
+  {{word4}}
+  </view>
+  <view id ='meaning'>
+  {{meaning4}}
+  </view>
+</view>
+<view class="wordItem">
+  <view id ='word'>
+  {{word5}}
+  </view>
+  <view id ='meaning'>
+  {{meaning5}}
+  </view>
+</view>
+<view id='btn'>
+<button id='lastPage' size='mini' bindtap='viewLastPage'>上一页</button>
+<button id='nextPage' size='mini' bindtap='viewNextPage'>下一页</button>
+</view>

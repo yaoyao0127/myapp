@@ -7,12 +7,22 @@ Page({
   data: {
   
   },
-
+  // 点击事件
+  viewCET6:function(){
+    wx.navigateTo({
+      url: '../wordItem/wordItem',
+    })
+  },
+  viewTOF: function () {
+    wx.navigateTo({
+      url: '../wordItem/wordItem',
+    })
+  },
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-  
+    
   },
 
   /**
